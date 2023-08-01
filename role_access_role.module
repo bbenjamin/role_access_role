@@ -1,0 +1,7 @@
+<?php
+
+function role_access_role_entity_type_build(array &$entity_types) {
+  if (isset($entity_types['user_role'])) {
+    $entity_types['user_role']->setHandlerClass('storage', '\Drupal\role_access_role\RoleToRoleStorage');
+  }
+}

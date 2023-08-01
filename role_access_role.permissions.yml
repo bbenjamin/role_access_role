@@ -1,0 +1,2 @@
+permission_callbacks:
+  - \Drupal\role_access_role\RoleRolePermissions::buildRoleRolePermissions

@@ -1,0 +1,6 @@
+name: Role Access Role
+type: module
+description: "Role based access to other roles"
+core_version_requirement: ^10 || ^11
+dependencies:
+  - drupal:user
